@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.modal-container{
+    width: 650px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+.modal-row{
+    padding: 20px;
+}
+.row-bd-bottom{
+    border-bottom: 1px solid #e0e0e0;
+}
+.modal-container .modal-row:last-child{
+    text-align: right;
+}
+.modal-container .modal-row:last-child button{
+    padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+.modal-container .modal-row:first-child{
+    position: relative;
+}
+.modal-container .modal-row:first-child span{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
